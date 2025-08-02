@@ -1,4 +1,6 @@
-# Simple HTTP Manager System
+# Simple HTTP Manager System 
+
+[![](https://jitpack.io/v/FourteenDev/simple-http-manager.svg)](https://jitpack.io/#FourteenDev/simple-http-manager)
 
 A comprehensive Java HTTP client management system. Provides scalable, robust HTTP communication capabilities.
 
@@ -60,6 +62,30 @@ SimpleHttpManager/
 - **Resource Management** - Proper cleanup of HTTP resources
 
 ## Quick Start
+
+### Add to your Project
+
+Add the following code to your `pom.xml` file:
+
+```xml
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
+
+<dependencies>
+	<!-- Simple HTTP Manager System -->
+	<dependency>
+		<groupId>com.github.FourteenDev</groupId>
+		<artifactId>simple-http-manager</artifactId>
+		<version>v1.0.0</version>
+	</dependency>
+</dependencies>
+```
+
+[More info](https://jitpack.io/#FourteenDev/simple-http-manager)
 
 ### Basic Usage
 
