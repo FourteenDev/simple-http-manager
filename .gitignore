@@ -1,0 +1,105 @@
+config.properties
+
+# ========================= #
+# Java Compiled class files #
+# ========================= #
+*.class
+
+# ============= #
+# Package Files #
+# ============= #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ===== #
+# Maven #
+# ===== #
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ====== #
+# Gradle #
+# ====== #
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ========= #
+# Log files #
+# ========= #
+*.log
+
+# =========== #
+# BlueJ files #
+# =========== #
+*.ctxt
+
+# ============================ #
+# Mobile Tools for Java (J2ME) #
+# ============================ #
+.mtj.tmp/
+
+# ========================== #
+# virtual machine crash logs #
+# ========================== #
+hs_err_pid*
+replay_pid*
+
+# ==== #
+# IDEs #
+# ==== #
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+.vscode/
+.code-workspace
+.fleet/
+.nova/
+.vscode/
+.zed/
+*.tmp
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
